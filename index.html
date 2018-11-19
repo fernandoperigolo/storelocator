@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Store Locator</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="main.css" media="all" />
+  </head>
+  <body>
+    <!-- Store locator container -->
+    <div id="store-locator">
+      <!-- Column control -->
+      <div id="stores">
+        <!-- Search field -->
+        <input id="store-search" type="text" placeholder="Search Box">
+        <ul id="store-list">
+          <li>Loading...</li>
+        </ul>
+      </div>
+      <!-- Column map -->
+      <div id="map"></div>
+    </div>
+
+    <!-- Script with map and control setup -->
+    <script type="text/javascript" src="app.js"></script>
+    <!-- Google Maps call with Places -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=[YOUR_API_KEY]&libraries=places&callback=initMap" async defer></script>
+  </body>
+</html>

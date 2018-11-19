@@ -1,0 +1,16 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+#store-locator {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
+#stores {
+  height: 100%;
+}
+#map {
+  height: 100%;
+}
